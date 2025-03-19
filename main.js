@@ -156,7 +156,7 @@ function addWindow(x, y, z, building) {
     window.rotation.y = x > 0 ? Math.PI / 2 : -Math.PI / 2;
   }
   
-  building.add(window); Particle system for dust and debris
+  building.add(window);
 const particles = new THREE.Group();
 scene.add(particles);
 
